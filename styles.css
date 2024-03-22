@@ -1,0 +1,111 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+#hero{
+    background: url("./images/santarosa.jpg");
+    background-size: cover;
+    padding: 170px 0 170px 0;
+    color: #ffffff;
+    
+}
+.box-wrapper{
+    display:block;
+     margin: 0 auto;
+     border-radius: 5px;
+}
+#hometown{
+    width:280px; 
+    padding: 3px 8px; 
+    background-color: #1D3557;
+    
+}
+#hometown-description{
+    width: 480px;
+    padding: 4px 0;
+    margin: 15px auto 0;
+    background-color: #457B9D;
+}
+#activites{
+    background: #F1FAEE;
+    color: #1D3557;
+    padding: 30px 0;
+}
+#activites-title{
+    margin-bottom: 50px;
+    
+}
+#activites-wrapper{
+    display:flex;
+    justify-content: space-around;
+    
+}
+.activity-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.act-img-style{
+    border-radius: 50%;
+}
+.activity{
+    font-weight: bold;
+    width: 200px;
+    height: 37px;
+    margin: 20px auto 0;
+}
+.activity-to-do{
+    width: 200px;
+
+    margin: 0;
+}
+#guide{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    width: 400px;
+    color: #1D3557;
+    background: #A8DADC;
+    margin: 50px auto;
+    border-radius: 10px;
+    border-bottom: 6px solid #1D3557;
+    
+}
+#per-img{
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+#source-desc{
+    width: 200px;
+    font-style: italic;
+}
+#guide-title{
+    font-size: 24px;
+}
+
+#museum, #epicenter{
+    margin-top: 20px;
+}
+#safari{
+    margin-top: 20px;
+}
